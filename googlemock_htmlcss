@@ -1,0 +1,116 @@
+body {
+  font-family:Arial, sans-serif;
+  background-color:white;
+}
+
+.topmenu {
+  font:bold 0.9em Arial, sans-serif;
+  list-style:none;
+  padding:0;
+  margin:0;
+  margin-top:-10px;
+  background-color:rgb(45, 45, 45);
+  opacity:1;
+  border-bottom:1px solid black;
+  min-width:3000px;  
+}
+
+.topmenu li {
+  display:inline-block;
+  zoom:1;
+  *display:inline;
+  padding:5px 4px 5px 5px;
+}
+
+.topmenu li a {
+  color:#CCCCCC;
+  text-decoration:none;
+}
+
+.topmenu li a:hover {
+  color:white;
+}
+
+.Signin {
+  float:right;
+  margin-top:10px;
+  background-color:DF4A32;
+  padding:8px;
+  border:1px solid #dcdcdc;
+  border-radius:2px;
+  text-decoration:none;
+  color:white;
+  font:bold 0.8em Arial, sans-serif;  
+}
+
+.buttons:hover {
+  background:#ddd;
+}
+
+div.Google {
+  text-align:center;
+  margin-top: 200px;
+  margin-bottom:20px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+div.Searchbox {
+  position:relative;
+  text-align:center;
+  border-top-color:blue;
+  min-height:350px;
+}
+
+p {
+  padding:20px;
+}
+.buttons {
+  position:relative;
+  margin:5px;
+  background:#ededed;
+  padding:8px 12px;
+  border:1px solid #dcdcdc;
+  border-radius:2px;
+  text-decoration:none;
+  color:black;
+  font:bold 0.8em Arial, sans-serif;  
+}
+
+.buttons:hover {
+  background:#ddd;
+}
+
+#footer {
+  display:inline-block;
+  text-align:right;
+  float:right;
+  min-width:3000px;  
+}
+.bottommenu {
+  font:0.9em Arial, sans-serif;
+  list-style:none;
+  padding:0;
+  margin-top:50px;
+  background-color:white;
+  opacity:1;
+  border-top:1px solid #ddd;
+}
+
+.bottommenu li {
+  display:inline-block;
+  zoom:1;
+  *display:inline;
+  padding:5px 4px 5px 20px; 
+}
+
+.bottommenu li a {
+  display:inline-block;
+  text-align:right;
+  color:gray;
+  text-decoration:none;
+}
+
+.bottommenu li a:hover {
+  text-decoration:underline;
+}
